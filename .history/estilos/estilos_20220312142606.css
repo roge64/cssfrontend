@@ -1,0 +1,609 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    /*     text-decoration: none; */
+}
+
+body {
+    /*     font-family: Geneva; */
+    background-color: rgb(0, 0, 0);
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: white;
+    /* background-image:
+radial-gradient(circle at 100% 150%, black 24%, #101010 24%, #101010 28%, black 28%, black 36%, #101010 36%, #101010 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, black 24%, #101010 24%, #101010 28%, black 28%, black 35%, #101010 36%, #101010 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, #101010 10%, black 10%, black 23%, #101010 23%, #101010 30%, black 30%, black 43%, #101010 43%, #101010 50%, black 50%, black 63%, #101010 63%, #101010 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, #101010 5%, black 5%, black 15%, #101010 15%, #101010 20%, black 20%, black 29%, #101010 29%, #101010 34%, black 34%, black 44%, #101010 44%, #101010 49%, transparent 49%, transparent),
+radial-gradient(circle at 0    50%, #101010 5%, black 5%, black 15%, #101010 15%, #101010 20%, black 20%, black 29%, #101010 29%, #101010 34%, black 34%, black 44%, #101010 44%, #101010 48%, transparent 49%, transparent);
+background-size: 50px 31px;
+ */
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: white;
+    width: 90%;
+    height: 75px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.menu li {
+    text-decoration: none;
+    color: #2596be;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: right;
+}
+
+.menu li:hover {
+    background: #2747c5;
+}
+
+
+#container,
+header,
+#banner,
+#noticias,
+#marcas,
+footer,
+#social1 {
+    /* background-color:rgb(255, 255, 255); */
+    background-color: white;
+    /* background-image:
+radial-gradient(circle at 100% 150%, black 24%, #101010 24%, #101010 28%, black 28%, black 36%, #101010 36%, #101010 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, black 24%, #101010 24%, #101010 28%, black 28%, black 35%, #101010 36%, #101010 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, #101010 10%, black 10%, black 23%, #101010 23%, #101010 30%, black 30%, black 43%, #101010 43%, #101010 50%, black 50%, black 63%, #101010 63%, #101010 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, #101010 5%, black 5%, black 15%, #101010 15%, #101010 20%, black 20%, black 29%, #101010 29%, #101010 34%, black 34%, black 44%, #101010 44%, #101010 49%, transparent 49%, transparent),
+radial-gradient(circle at 0    50%, #101010 5%, black 5%, black 15%, #101010 15%, #101010 20%, black 20%, black 29%, #101010 29%, #101010 34%, black 34%, black 44%, #101010 44%, #101010 48%, transparent 49%, transparent);
+background-size: 50px 31px;
+ */
+    height: 2500px;
+    width: 1100px;
+
+}
+
+header {
+    /*     background-color:antiquewhite;
+ */
+    height: 40px;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+#banner {
+    background-color: white;
+    /*     background-color:rgb(25, 25, 25); */
+    width: 1100px;
+    height: 100px;
+
+
+}
+
+
+#noticias {
+    /*     background-color: antiquewhite;
+ */
+    height: 200px;
+}
+
+#tienda #names {
+    /*     background-color: grey; */
+    /* background-color:black;
+background-image:
+radial-gradient(circle at 100% 150%, black 24%, #101010 24%, #101010 28%, black 28%, black 36%, #101010 36%, #101010 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, black 24%, #101010 24%, #101010 28%, black 28%, black 35%, #101010 36%, #101010 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, #101010 10%, black 10%, black 23%, #101010 23%, #101010 30%, black 30%, black 43%, #101010 43%, #101010 50%, black 50%, black 63%, #101010 63%, #101010 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, #101010 5%, black 5%, black 15%, #101010 15%, #101010 20%, black 20%, black 29%, #101010 29%, #101010 34%, black 34%, black 44%, #101010 44%, #101010 49%, transparent 49%, transparent),
+radial-gradient(circle at 0    50%, #101010 5%, black 5%, black 15%, #101010 15%, #101010 20%, black 20%, black 29%, #101010 29%, #101010 34%, black 34%, black 44%, #101010 44%, #101010 48%, transparent 49%, transparent);
+background-size: 50px 31px; */
+
+    height: 300px;
+    width: 1000px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#marcas {
+    /*     background-color:rgb(58, 41, 18); */
+    height: 205px;
+}
+
+
+footer {
+    width: 800px;
+    /*     background-color:rgb(0, 0, 0); */
+    text-align: center;
+    height: 25px;
+    padding-top: 7px;
+
+}
+
+
+#banner #banner1 {
+    /*     background-color: rgb(180, 134, 73); */
+    width: 170px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    /*     display: inline-block; */
+    margin: 5px 5px;
+    background-image: url("../img/logo1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner #banner2 {
+    /*     background-color: rgb(180, 134, 73); */
+    width: 750px;
+    height: 100px;
+    float: right;
+    /*     display: inline-block; */
+    /* vertical-align: center;  */
+    margin: 5px 5px;
+    font-size: 18px;
+}
+
+#noticias #news1 {
+    /*     background-color: rgb(41, 38, 34); */
+    font-size: 50px;
+
+    text-align: center;
+    width: 790px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: center;
+    margin: 5px 5px;
+
+}
+
+
+#tienda #cake1 {
+    background: rgb(109, 175, 33);
+    width: 480px;
+    height: 485px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 8px;
+
+}
+
+#tienda #cake2 {
+    background: cornflowerblue;
+    width: 450px;
+    height: 585px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 70px;
+    background-image: url("../img/picx1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* #tienda #cake3{
+    background: rgb(175, 169, 112);
+    width: 240px;
+    height: 285px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 5px; 
+} */
+
+#names #name1 {
+    font-size: 25px;
+    text-align: center;
+    width: 240px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 8px;
+}
+
+#names #name2 {
+    font-size: 25px;
+    text-align: center;
+    width: 240px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 8px;
+}
+
+#names #name3 {
+    font-size: 25px;
+    text-align: center;
+    width: 240px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 8px;
+}
+
+#social #social1 {
+    text-decoration: none;
+    /*     background: rgb(109, 175, 33); */
+    width: 375px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: center;
+    margin: 10px 12px;
+}
+
+#social #social2 {
+    text-decoration: none;
+    /*     background: rgb(109, 175, 33); */
+    width: 375px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: center;
+    margin: 10px 10px;
+}
+
+#social #social1 {
+    color: rgb(175, 169, 112);
+
+
+}
+
+#separador {
+    width: 800px;
+    text-align: center;
+    height: 100px;
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+
+.e {
+    grid-column: 1 / 38;
+    grid-row: 1 / 2;
+    margin-top: 80px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    font-stretch: expanded;
+}
+
+.f {
+    grid-column: 50 / 99;
+    grid-row: 1 / 7;
+    background-color: aqua;
+    background-image: url("../img/picx1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.g {
+    grid-column: 1 / 40;
+    grid-row: 2 / 3;
+    margin-top: 20;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: expanded;
+}
+
+.h {
+    grid-column: 1 / 20;
+    grid-row: 3 / 3;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    font-stretch: expanded;
+}
+
+.i {
+    grid-column: 20 / 40;
+    grid-row: 3 / 3;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    font-stretch: expanded;
+}
+
+.j {
+    grid-column: 1 / 40;
+    grid-row: 5 / 5;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: expanded;
+}
+
+.k {
+    grid-column: 1 / 25;
+    grid-row: 7 / 8;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: expanded;
+    background-image: url("../img/aztra.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.l {
+    grid-column: 30 / 50;
+    grid-row: 7 / 8;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: expanded;
+    background-image: url("../img/sinovac.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: .3;
+    margin-left: 15px;
+
+}
+
+.m {
+    grid-column: 50 / 75;
+    grid-row: 7 / 8;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: expanded;
+    background-image: url("../img/pfizer.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: .3;
+}
+
+.n {
+    grid-column: 75 / 100;
+    grid-row: 7 / 8;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: expanded;
+    background-image: url("../img/moderna.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: .3;
+}
+
+.o {
+    grid-column: 1 / 50;
+    grid-row: 8 / 9;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: expanded;
+    margin-top: 50px;
+    /*     background-image: url("../img/moderna.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    opacity: .3; */
+}
+
+.p {
+    grid-column: 1 / 57;
+    grid-row: 9 / 10;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: expanded;
+    /*     background-image: url("../img/moderna.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    opacity: .3; */
+}
+
+
+
+
+.q {
+    grid-column: 1 / 15;
+    grid-row: 11 / 11;
+    background-color: white;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    /*     font-stretch: expanded; */
+}
+
+.r {
+    grid-column: 25 / 35;
+    grid-row: 11 / 11;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: expanded;
+}
+
+.s {
+    grid-column: 50 / 65;
+    grid-row: 11 / 11;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: expanded;
+}
+
+.t {
+    grid-column: 75 / 85;
+    grid-row: 11 / 11;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: expanded;
+}
+
+.u {
+    grid-column: 1 / 25;
+    grid-row: 12 / 12;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: expanded;
+}
+
+.v {
+    grid-column: 25 / 50;
+    grid-row: 12 / 12;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: expanded;
+}
+
+.w {
+    grid-column: 50 / 75;
+    grid-row: 12 / 12;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: expanded;
+}
+
+.x {
+    grid-column: 75 / 100;
+    grid-row: 12 / 12;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: expanded;
+}
+
+.aa {
+    grid-column: 1 / 45;
+    grid-row: 15 / 19;
+    background-color: aqua;
+    background-image: url("../img/pic2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bb {
+    grid-column: 47 / 100;
+    grid-row: 14 / 14;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+/*     font-stretch: expanded; */
+
+}
+
+.cc {
+    grid-column: 47 / 100;
+    grid-row: 15 / 15;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.dd {
+    grid-column: 47 / 100;
+    grid-row: 16 / 21;
+    background-color: aqua;
+    background-image: url("../img/prep.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.ee {
+    grid-column: 1 / 47;
+    grid-row: 22 / 29;
+    background-color: white;
+    background-image: url("../img/contact.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.ff {
+    grid-column: 47 / 100;
+    grid-row: 24 / 28;
+    background-color: white;
+    background-image: url("../img/pic3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#banner3 {
+    grid-column: 1 / 60;
+    grid-row: 6 / 6;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: expanded;
+    opacity: .85;
+}
+
+#banner4 {
+    grid-column: 60 / 80;
+    grid-row: 6 / 6;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: expanded;
+    text-align: right;
+    opacity: .85;
+}
+
+#banner4 :hover {
+    background: #2747c5;
+}
