@@ -2,7 +2,7 @@
 ## Evidencia de las prácticas de FrontEnd Misión 03 CSS
 
 
-Para esta práctica se va aclonar la página que está en el siguiente enlace Link del diseño by Adhiari Subekti
+Para esta práctica se va a clonar la página que está en el siguiente enlace Link del diseño by Adhiari Subekti
 
 Es una página de vacunación y en estos momentos que se está poniendo la tercer dosis en varios estados de la república y que en algunos otros se está poniendo la segunda o incluso la primera sigue siendo muy importante recordar toda esta información.
 
